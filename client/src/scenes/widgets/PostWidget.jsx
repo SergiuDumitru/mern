@@ -42,7 +42,7 @@ const PostWidget = ({ posts }) => {
 
   return (
     <WidgetWrapper m="2rem 0">
-      <DataGrid dataSource={posts} keyExpr="_id"></DataGrid>
+      <DataGrid dataSource={posts} keyExpr="_id" allowColumnResizing={true}></DataGrid>
     </WidgetWrapper>
   );
 };
